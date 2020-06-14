@@ -1,0 +1,13 @@
+
+
+.Img_person{
+    min-width: 200px;
+    min-height: 200px;
+}
+
+.name{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 1em 0;
+    padding-bottom: 0;
+}

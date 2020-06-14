@@ -1,0 +1,59 @@
+.inner_container{
+    width:90%;
+    max-width: 70em;
+    margin: 0 auto;
+    
+
+}
+.flex{
+    display: flex;
+    padding: 8em;
+    background-color: #fff;
+    color: #111;
+    border-radius: 1.5em;
+    max-width:1460x;
+    max-height:788px ;
+    margin-top: -393px;
+}
+
+.left_content{
+  align-items: baseline;
+
+  }
+    .h1_product{
+      font-size: 2em;
+    }
+    .h_product{
+      background-image: url("../../assets/images/UI UX .png");
+      color: darkgray;
+      height: 120px;
+
+      line-height: 40px;
+    }
+
+
+    .ui_ux{
+      width: 90%;
+    }
+    .content_product{
+      padding-right: 5em;
+      margin-top: 10px;
+      font-size: 98%;
+      line-height: 35px;
+    }
+    .btn_product{
+      padding: 11px 55px;
+      background-color: #F46632;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+    }
+
+  .right_item{
+    align-items: baseline;
+
+  }
+    .img_product{
+        width: 120%;
+    }
+

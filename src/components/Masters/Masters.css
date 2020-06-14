@@ -1,0 +1,13 @@
+.masters{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.person-holder{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
