@@ -1,0 +1,23 @@
+
+.img_ask{
+    margin-bottom: 15px;
+}
+.Title-askkedQ{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left ;
+    padding-bottom: 20px;
+}
+.Ask-holder{
+    background-color: #F8F8F8;
+    padding-bottom: 60px;
+    text-align: center ;
+
+}
+
+.Question{
+    padding: 18px;
+    text-align: left ;
+    border-radius: 15px;
+    background-color: #fff;
+}

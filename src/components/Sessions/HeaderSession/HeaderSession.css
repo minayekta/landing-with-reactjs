@@ -1,0 +1,47 @@
+.header{
+    background-color: #F8F8F8;
+    display: flex;
+    /* padding-top: 3px;
+    padding-bottom: 3px; */
+    flex-direction: row;
+    border-radius: 12px;
+    position: relative;
+
+}
+.header::before {
+    height: 54px;
+    background-color: black;
+    content: " ";
+    position: absolute;
+    left: -17px;
+    width: 6px;
+    border-radius: 20px;
+}
+.num-session{
+    font-size: 20px;
+    margin-top: 8px;
+    font-weight: bold;
+    /* padding-left: 20px;
+    padding-right: 100px; */
+}
+.holder-x{
+    display: flex;
+    margin-right: 75px;
+    margin-left: 75px;
+    align-items: center;
+
+}
+
+.IMG{
+   max-width: 24px;
+   max-height: 24px; 
+   margin: 5px;
+   align-content:space-between;
+   justify-content: space-around;
+}
+
+.Title{
+   font-size: 12px;
+   margin: 5px;
+
+}

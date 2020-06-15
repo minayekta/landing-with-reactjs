@@ -1,0 +1,27 @@
+
+.holder{
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    /* padding-bottom: 60px; */
+}
+.IMG_course{
+    margin-bottom: 20px;
+    width: 50%;
+}
+.course-title{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+.course-q{
+    font-size: 13px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.img-price{
+    max-width: 336px;
+    margin-left: 75px;
+}

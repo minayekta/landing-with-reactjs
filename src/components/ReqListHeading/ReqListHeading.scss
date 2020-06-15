@@ -1,8 +1,4 @@
-.inner_container{
-  width:90%;
-  max-width: 70em;
-  margin: 0 auto;
-}
+
 
 .container_req {
   background-color: black;
@@ -21,7 +17,7 @@
       margin: 20px 2px;
     }
 
-    .input {
+    .input-req {
       padding: 12px 100px;
       border: none;
       border-radius: 10px;
@@ -38,12 +34,14 @@
     position: relative;  
     max-height: 603px;
     .img1 {
-      max-width: 400px;
+      max-width: 450px;
       margin-top: -32px;
     }
 
     .img2{
-        position: absolute;
+      margin: -334px;
+      max-width: 140px;
+
     }
   }
 }

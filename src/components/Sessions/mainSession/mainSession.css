@@ -1,0 +1,24 @@
+.flex-mainsession{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.IMG_main{
+    max-width: 80px;
+    max-height: 80px;
+    /* padding-right: 80px; */
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.IMG_main:not(:first-child){
+    margin-left: 10px;
+}
+
+.text-main{
+    margin: 5px;
+    padding-left: 50px;
+    text-align: left;
+}

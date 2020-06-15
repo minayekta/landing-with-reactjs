@@ -6,7 +6,7 @@ const Person = ({ data }) => {
     <div className="person">
       <img className="Img_person" src={data.image} alt="person" />
       <p className="name"> {data.name}</p>
-      <p> {data.jobTitle}</p>
+      <p className="jobTitle"> {data.jobTitle}</p>
     </div>
   );
 };

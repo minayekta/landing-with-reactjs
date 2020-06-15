@@ -1,28 +1,28 @@
-.inner_container{
-    width:95%;
-    max-width: 80em;
-    margin: 0 auto;
-}
+
 .back{
+    text-align: center;
     background-color: #fff;
     padding: 8em;
-    /* margin-top: 47px; */
+    margin-top: 47px;
     padding-top: 4em;
     border-radius: 1.5em;
 
 }
 .title_course{
     text-align: center;
-    background-image: url();
+    /* background-image: url(); */
 }
 
 .Img_title{
     /* margin: 0 auto; */
+    margin-bottom: 20px;
+
     
 }
 .box_item{
     display: flex;
     padding: 5px auto;
+    justify-content: center
 }   
 .item_btn_1{
     justify-content:center;
@@ -41,6 +41,7 @@
     padding: 8px;
 }
 .item_btn_3{
+    justify-content:center;
     font-size: 90%;
     border: 1px solid #111;
     padding: 8px;
@@ -54,6 +55,8 @@
     display: flex;
     margin-top: 55px;
     line-height: 35px;
+    text-align: left;
+
 }
 
 .img_course{

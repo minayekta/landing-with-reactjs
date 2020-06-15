@@ -2,7 +2,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 8em;
 
+}
+
+.img_master{
+    margin-bottom: 20px;
 }
 
 .person-holder{

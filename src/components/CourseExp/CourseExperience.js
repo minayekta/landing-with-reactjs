@@ -15,7 +15,7 @@ import "../CourseExp/CourseExperience.css"
             <div className="exp_content">
                 <img className="img_course" src={img}/>
                 <p className="content_course">
-                This course has been attempted by zero people who are eager to learn product design, especially user experience and user interface, so it is not a prerequisite, but due to the limited capacity of the priority course with early enrolled people, others can participate in future courses. .
+                This course has been attempted by zero people who are eager to learn product design, especially user experience and user interface, so it is not a prerequisite, but due to the limited capacity of the priority course with early enrolled people, others can participate in future courses. 
                  Obviously, the ability to use tools like Adobe Photoshop and Adobe Illustrator as well as Microsoft Word, Excel tools, and of course a lot of enthusiasm and energy, 
                 </p>
             </div>

@@ -8,7 +8,7 @@ import Masters from './components/Masters/Masters';
 import AskedQ from './components/AskQ/AskedQ';
 import CourseFee from './components/CouresFee/CouresFee';
 import ReqListHeading from './components/ReqListHeading/ReqListHeading';
-
+import './App.css'
 function App() {
   return (
     <div className="App">
