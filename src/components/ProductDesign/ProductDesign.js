@@ -8,7 +8,7 @@ import "./ProductDesign.css"
             <div className="left_item">
                 <h1 className="h1_product">Product Design Course </h1>
                 
-                <h2 className="h_product"> Product Factory </h2>
+                <p className="h_product"> Product Factory </p>
                 <p className="content_product">
                     Learn how design thinking, user research,
                     business vision and marketing, and finally designing

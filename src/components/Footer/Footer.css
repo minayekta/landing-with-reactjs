@@ -1,0 +1,19 @@
+.footer-holder{
+    display: flex;
+    background-color: #fff;
+    padding: 2em;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.social{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.flex-item{
+}
+
+.img-product{
+    
+}

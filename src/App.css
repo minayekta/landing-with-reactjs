@@ -2,3 +2,10 @@
     background-color: #F8F8F8;
 
 }
+
+@media (min-width: 360px)  {
+    .App{
+        width: 100%;
+    }
+    
+}

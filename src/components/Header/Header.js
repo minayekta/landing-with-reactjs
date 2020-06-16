@@ -1,7 +1,6 @@
 import React from 'react'
 import './Header.scss'
 import img from '../../assets/images/Group 365.png';
-import ProductDesign from "../ProductDesign/ProductDesign";
  const Header = () =>{
     return (
       
@@ -9,10 +8,10 @@ import ProductDesign from "../ProductDesign/ProductDesign";
         <div className=" container  ">
             <nav className="nav_list">
             <div>
-                <img className="img" src={img}/>
+                <img className="img" src={img} alt="img" />
             </div>
                     <ul className="group_item">
-                        <li className="item"> Projects </li>
+                        <li className="item" onClick=""> Projects </li>
                         <li className="item"> Partners </li>
                         <li className="item"> FAQ </li>
                         <li className="item"> Masters</li>
@@ -22,7 +21,7 @@ import ProductDesign from "../ProductDesign/ProductDesign";
                     </ul>
                     <div>
                     </div>
-            <button className="btn_nav  "> Register </button>
+            <button className="btn_nav"> Register </button>
 
             </nav>
 

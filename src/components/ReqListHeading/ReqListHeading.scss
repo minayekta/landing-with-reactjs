@@ -6,7 +6,7 @@
   display: flex;
 
   .Req_list {
-    margin: 100px 50px 100px 100px;
+    margin: 100px 98px 100px 154px;
 
     .title {
       font-size: 1.5em;
@@ -14,19 +14,33 @@
     }
 
     .description {
-      margin: 20px 2px;
+      margin: 28px 0px;
+      font-size: 14px;
+
     }
 
     .input-req {
       padding: 12px 100px;
       border: none;
+      background-color: #707070;
+      color: #fff;
       border-radius: 10px;
+    }
+
+    &::placeholder{
+      color: red;
     }
     .icon {
     }
     .p_icon {
-      font-size: 13px;
+      font-size: 15px;
+      color: #ACACAC;
       margin-top: 30px
+    }
+    .IMG_tick{
+      max-width: 20px;
+      max-height: 20px;
+      margin-right: 5px;
     }
   }
 
@@ -34,13 +48,13 @@
     position: relative;  
     max-height: 603px;
     .img1 {
-      max-width: 450px;
+      max-width: 514px;
       margin-top: -32px;
     }
 
     .img2{
-      margin: -334px;
-      max-width: 140px;
+      margin: -338px;
+      max-width: 160px;
 
     }
   }
