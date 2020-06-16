@@ -20,6 +20,9 @@ body{
         .img{
             margin: 5px;
             width: 65%;
+            // max-width: 200px;
+            min-width: 90px; 
+            max-height: 200px;
         }
 }
 .group_item{

@@ -54,6 +54,19 @@
 
   }
     .img_product{
-        width: 120%;
+      /* width: 120%; */
+      max-width: 300px;
+      max-height: 300px;
     }
 
+    @media (max-width: 360px)  {
+      .flex{
+          flex-wrap: wrap;
+      }
+    }
+
+    @media (min-width: 1400px)  {
+      .flex{
+          /* flex-wrap: wrap; */
+      }
+    }

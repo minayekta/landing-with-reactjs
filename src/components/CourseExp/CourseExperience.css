@@ -56,13 +56,15 @@
     margin-top: 55px;
     line-height: 35px;
     text-align: left;
-
+    flex-wrap: nowrap;
 }
 
 .img_course{
     margin-right: 20px;
     align-items: center;
     margin-top: -40px;
+    max-width: 258px;
+    max-height: 260px;
 
 }
 .content_cours{
@@ -71,4 +73,14 @@
     line-height: 38px;
     margin-top: 95px;
 
+}
+
+
+@media (max-width: 360px)  {
+    .exp_content{
+        flex-wrap: wrap;
+    }
+    .exp_content{
+        font-size: 30px;
+    }
 }

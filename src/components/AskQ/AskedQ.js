@@ -10,26 +10,15 @@ import {
 } from 'react-accessible-accordion';
 
  const AskedQ = () => {
+    
+
     return (
         <div className="container Ask-holder">
         <div>
             <img className="img_ask" src={IMG} alt="img-ask"/>
            
         </div>  
-     
-                
-        <Accordion>
-            <AccordionItem>
-                    <AccordionItemHeading>
-                            <AccordionItemButton>
-                                    DDDDDDDD
-                            </AccordionItemButton>
-                    </AccordionItemHeading>
-                            <AccordionItemPanel>
-                                               
-                            </AccordionItemPanel>
-            </AccordionItem>
-        </Accordion>
+    
             <p className="Question"> Does this course need any special requirements? <span> </span></p>
             <p className="Question"> Who are the audiences of the product design period of the product factory? <span> </span></p>
             <p className="Question"> Is it possible to pay by installments?<span> </span></p>
