@@ -2,7 +2,7 @@ import React from "react";
 import "./mainSession.css";
 // import {data} from '../moc'
 const MainSession = ({ data }) => {
-  console.log(data);
+  // console.log(data);
   return (
     <div className="container flex-mainsession">
       {data.image.map((item, i) => (

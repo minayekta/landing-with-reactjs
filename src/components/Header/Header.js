@@ -6,11 +6,11 @@ import img from '../../assets/images/Group 365.png';
       
         <div className="container-fluid top_menu">
         <div className=" container  ">
-            <nav className="nav_list">
-            <div>
-                <img className="img" src={img} alt="img" />
+            <nav className="nav_list row">
+            <div className="col-lg-1  col-md-2 col-sm-1">
+                <img className="img " src={img} alt="img" />
             </div>
-                    <ul className="group_item">
+                    <ul className="group_item col-lg-8 col-md-6 col-sm-6 ">
                         <li className="item" onClick=""> Projects </li>
                         <li className="item"> Partners </li>
                         <li className="item"> FAQ </li>
@@ -19,9 +19,7 @@ import img from '../../assets/images/Group 365.png';
                         <li className="item"> Course Experience </li>
                         <li className="item"> About us </li>
                     </ul>
-                    <div>
-                    </div>
-            <button className="btn_nav"> Register </button>
+            <button className="btn_nav col-lg-1  col-md-1 col-sm-1 "> Register </button>
 
             </nav>
 

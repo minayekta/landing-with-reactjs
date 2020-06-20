@@ -21,3 +21,13 @@
     border-radius: 15px;
     background-color: #fff;
 }
+
+@media (max-width: 768px)  {
+    .img_ask{
+        max-width: 300px;
+    }
+
+    .Question{
+        font-size: 13px;
+    }
+}

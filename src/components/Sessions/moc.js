@@ -1,12 +1,7 @@
 import {
     shervin,
     kainoosh,
-    hossein,
-    ali,
-    kiarash,
-    hesam,
     hasan,
-    hadi,
     sheragim,
     moslem
 }from "../../assets/images/img"
