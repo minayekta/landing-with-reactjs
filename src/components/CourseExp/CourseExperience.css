@@ -101,6 +101,11 @@
 .img_course{
     max-width: 269px;
     max-height: 201px;
+    margin-bottom: 35px;
+}
+.exp_content{
+    flex-wrap: wrap;
+    justify-content:center;
 }
 
 }
