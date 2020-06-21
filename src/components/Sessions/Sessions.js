@@ -8,11 +8,11 @@ import './Sessions.css'
         
         <div className="container back-session" >
         <img src={Img_title} alt="img"/>
-        <div>
+        <div className="row">
             
         {
             data.map((item ,id) => 
-            <CardSession data={item} key={id}  />
+            <CardSession className="col-xl-12 col-lg-10 col-md-8" data={item} key={id}  />
                )
         }
         </div>

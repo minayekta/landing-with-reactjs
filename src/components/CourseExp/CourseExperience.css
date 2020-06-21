@@ -109,6 +109,12 @@
 }
 
 }
+@media (max-width: 768px)  {
+    .Img_title {
+        max-height: 330px;
+        max-width: 316px;
+    }
+}
 
 @media (min-width: 576px)  {
     /* .Img_title {

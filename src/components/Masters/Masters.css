@@ -16,3 +16,10 @@
     align-items: center;
     justify-content: space-between;
 }
+
+@media (max-width: 1200px)  {
+    .person-holder{
+    justify-content: space-evenly;
+    }
+  }
+  

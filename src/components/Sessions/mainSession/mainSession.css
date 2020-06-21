@@ -22,3 +22,28 @@
     padding-left: 50px;
     text-align: left;
 }
+
+
+@media (max-width: 992px)  {
+    .flex-mainsession{
+        flex-wrap: nowrap;
+    }
+    .text-main{
+        margin: 5px;
+        font-size: 12px;
+        margin-top: 10px;
+        padding-left: 40px;
+    }
+    .IMG_main{
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 768px)  {
+    .flex-mainsession{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+

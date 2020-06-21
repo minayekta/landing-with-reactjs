@@ -6,7 +6,7 @@
   display: flex;
 
   .Req_list {
-    margin: 100px 98px 100px 154px;
+    margin: 100px 98px 100px 205px;
 
     .title {
       font-size: 1.5em;
@@ -58,4 +58,16 @@
 
     }
   }
+}
+@media (max-width: 768px)  {
+  .div_img {
+    // flex-wrap: wrap;
+    overflow: hidden;
+
+  }
+
+  .Req_list {
+    margin: 10px;
+  }
+
 }

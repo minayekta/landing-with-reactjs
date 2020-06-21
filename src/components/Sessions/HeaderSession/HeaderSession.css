@@ -45,3 +45,51 @@
    margin: 5px;
 
 }
+
+@media (max-width: 992px)  {
+    .IMG{
+        max-width: 15px;
+        max-height: 15px; 
+        margin: 3px;
+     }
+     .Title{
+        font-size: 9px;
+        margin: 3px;
+     
+     }
+
+     .num-session{
+            font-size: 15px;
+            margin-right: 15px;
+        }
+     .header{
+         width: 600px;
+     }
+     .header::before {
+        height: 36px;
+    }
+    .holder-x{
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px)  {
+    .header{
+        width: 450px;
+        /* flex-direction: column; */
+    }
+    .holder-x{
+        flex-wrap: nowrap;
+        justify-content: left;
+    }
+    .num-session{
+        font-size: 13px;
+    }
+}
+
+
+@media (max-width: 576px)  {
+.header{
+   
+}
+}
