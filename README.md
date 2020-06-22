@@ -1,3 +1,7 @@
+![Web 1920 – 28](https://user-images.githubusercontent.com/52190305/85288253-aee67400-b4aa-11ea-8c77-33517953ef3c.png)
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +70,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+
