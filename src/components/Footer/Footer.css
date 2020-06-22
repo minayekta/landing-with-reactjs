@@ -19,3 +19,15 @@
 .img-product{
     
 }
+
+@media (max-width: 768px)  {
+
+    .flex-item{
+        width: 10%;
+    }
+    .img-product{
+        width: 10%;
+    
+    }
+    
+}

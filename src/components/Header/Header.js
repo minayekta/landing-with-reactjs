@@ -28,7 +28,8 @@ class Header extends React.Component {
             <div className="">
               <img className="img " src={img} alt="img" />
             </div>
-         
+           
+            <div className="hambergeropen">
             <ul className={`collapsed ${isExpanded ? "is-expanded" : ""}`}>
               <li className="item" onClick="">
                 Projects
@@ -37,17 +38,21 @@ class Header extends React.Component {
               <li className="item"> FAQ </li>
               <li className="item"> Masters</li>
               <li className="item"> Classes </li>
-              <li className="item"> Course Experience </li>
+              <li className="item">  Experience </li>
               <li className="item"> About us </li>
-              <button className="btn_nav"> Register </button>
-              <div
-              onClick={(e) => this.handleToggle(e)}
-              className="span-holder">
-              <span className="line-hamberger"></span>
-              <span className="line-hamberger1"></span>
-              <span className="line-hamberger2"></span>
-              </div>
+              
             </ul>
+            </div>
+            <button className="btn_nav"> Register </button>
+ <div className="hambergerholder">
+            <div
+            onClick={(e) => this.handleToggle(e)}
+            className="span-holder">
+            <span className="line-hamberger"></span>
+            <span className="line-hamberger1"></span>
+            <span className="line-hamberger2"></span>
+            </div>
+            </div>
           </nav>
         </div>
       </div>

@@ -16,7 +16,6 @@
     .description {
       margin: 28px 0px;
       font-size: 14px;
-
     }
 
     .input-req {
@@ -59,15 +58,35 @@
     }
   }
 }
-@media (max-width: 768px)  {
+@media (max-width: 992px)  {
   .div_img {
     // flex-wrap: wrap;
     overflow: hidden;
-
+    display: none;
   }
 
-  .Req_list {
-    margin: 10px;
-  }
+}
 
+@media (max-width: 576px)  {
+  .flex{
+    margin: 0;
+  }
+  .container_req{
+    .Req_list {
+      margin: 60px;
+      margin-left: 80px;
+    }
+    .input-req {
+      padding: 12px 100px;
+      position: absolute;
+    }
+  }
+}
+@media (max-width: 350px)  {
+  .container_req{
+    .input-req {
+      padding: 12px 100px;
+      position: absolute;
+    }
+  }
 }

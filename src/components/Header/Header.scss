@@ -7,6 +7,7 @@ body {
   color: #fff;
   background-image: url("../../assets/images/Rectangle\ 131.png");
   height: 44vh;
+  z-index: 3;
   .nav_list {
     padding-top: 20px;
     list-style: none;
@@ -18,11 +19,12 @@ body {
       margin: 5px;
       width: 65%;
       // max-width: 200px;
+      order: -1;
       min-width: 90px;
       max-height: 200px;
     }
     &:last-child {
-      justify-content: flex-end;
+      // justify-content: flex-end;
     }
   }
   // .group_item{
@@ -39,7 +41,7 @@ body {
   //     justify-content: space-around;
 
   // .nav_list{
-  //
+  
   // }
 
   nav {
@@ -78,7 +80,7 @@ body {
       left: -5px;
       cursor: pointer;
       opacity: 0;
-      z-index: 2;
+      z-index: 3;
     }
   }
   .btn_nav {
@@ -98,35 +100,16 @@ body {
   }
 }
 
-.span-holder {
-  width: 40px;
-  height: 25px;
-  position: relative;
-  transform: rotate(0deg);
 
-  .line-hamberger {
-    display: block;
-    height: 3px;
+
+@media only screen and (max-width: 600px) {
+  .top_menu {
+    height: 10vh;
     width: 100%;
-    background: red;
-    transition-timing-function: ease;
-    transition-duration: 0.5s;
-    border-radius: 0px;
-    transform-origin: center center;
-    position: absolute;
-    transform: translate3d(0px, 0px, 0px) rotate(0deg);
-    margin-top: -1.5px;
-  }
-  .line-hamberger1 {
-    @extend .line-hamberger;
-    top: 13px;
-  }
-  .line-hamberger2 {
-    @extend .line-hamberger;
-    top: 26px;
+   .btn_nav {
+      display: none;
   }
 }
-@media only screen and (max-width: 600px) {
   .nav_list {
     .fa-bars {
       display: inline-block;
@@ -136,23 +119,55 @@ body {
       color: red;
       cursor: pointer;
     }
+    .item{
+      &:hover {
+      background-color: tomato;
+
+      }
+    }
+    .hamberger{
+      position: fixed;
+      justify-content:flex-end;
+      order: 6;
+    right: -1000px;
+    bottom: 0;
+    top: 0;
+    overflow: hidden;
+    width: 285px;
+    background-color: #fff;
+    height: 100vh;
+    z-index: 1000;
+    margin: 0;
+    display: block;
+    max-height: 100vh;
+    overflow-y: auto;
+    }
+    .hamburger.open {
+      overflow: hidden;
+      -webkit-transition: all .3s ease;
+      transition: all .3s ease;
+
+    }
+   
     ul.collapsed {
       width: 100%;
       display: flex;
       flex-direction: column-reverse;
       justify-content: space-between;
       flex-wrap: wrap;
-      color: red;
+      background-color: #111;
+      color: #fff;
       overflow: hidden;
       max-height: 0;
       -moz-transition-duration: 0.4s;
-      -webkit-transition-duration: 0.4s;
+      // -webkit-transition-duration: 0.4s;
       -o-transition-duration: 0.4s;
       transition-duration: 0.4s;
       -moz-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
       -webkit-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
       -o-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
       transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+      z-index: 1;
 
       &.is-expanded {
         overflow: hidden;
@@ -165,6 +180,8 @@ body {
         -webkit-transition-timing-function: ease-in;
         -o-transition-timing-function: ease-in;
         transition-timing-function: ease-in;
+        position: sticky;
+
       }
       li {
         padding: 15px 10px;
@@ -172,5 +189,37 @@ body {
         width: 100%;
       }
     }
+  }
+  .hambergerholder{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    .span-holder {
+      width: 40px;
+      height: 25px;
+      position: relative;
+      transform: rotate(0deg);
+    .line-hamberger {
+      display: block;
+      height: 3px;
+      width: 100%;
+      background:  tomato;
+      transition-timing-function: ease;
+      transition-duration: 0.5s;
+      border-radius: 0px;
+      transform-origin: center center;
+      position: absolute;
+      transform: translate3d(0px, 0px, 0px) rotate(0deg);
+      margin-top: -1.5px;
+    }
+    .line-hamberger1 {
+      @extend .line-hamberger;
+      top: 13px;
+    }
+    .line-hamberger2 {
+      @extend .line-hamberger;
+      top: 26px;
+    }
+  }
   }
 }
